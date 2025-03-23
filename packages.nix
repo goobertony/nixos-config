@@ -6,11 +6,11 @@
  # xdg.portal.enable =true ;
  # services.flatpak.enable = true;
   programs.nix-ld.enable = true;
-  programs.nix-ld.libraries = with pkgs; [
-    # Add any missing dynamic libraries for unpackaged programs
-    # here, NOT in environment.systemPackages
-    fuse
-    glibc
+ # programs.nix-ld.libraries = with pkgs; [
+ #   # Add any missing dynamic libraries for unpackaged programs
+ #   # here, NOT in environment.systemPackages
+ #   fuse
+ #   glibc
   ];
 
   nixpkgs.config = {
@@ -34,7 +34,7 @@
     gimp
     vlc
     helix #text editor
-    webcord
+    webcord-vencord
     blugon
     wlsunset #blue light filter
     discord
@@ -104,7 +104,6 @@
     papirus-icon-theme
 
     # WMs and stuff
-    yambar
     dunst
 
     # Sound
