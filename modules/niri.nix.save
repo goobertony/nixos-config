@@ -1,0 +1,34 @@
+{ lib, pkgs, ... }:
+{
+services.greetd = {
+    enable = true;
+    settings = {
+      default_session = {
+        command = "${pkgs.greetd.tuigreet}/bin/tuigreet --time --cmd niri-session";
+        user = "greeter";
+      };
+    };
+  };
+
+  programs.niri = {
+    enable = true;
+    package = pkgs.niri;  
+  };
+
+  environment.systemPackages = with pkgs; [
+    niri
+    kitty
+    dmenu-wayland
+    swww
+    xwayland-satellite
+  ];
+  
+  environment.variables = {
+	NIXOS_OZONE_WL = "1";
+        DISPLAY = "0";
+   };
+   xdg.portal = {
+	enable = true;
+	extraPortals = [pkgs.xdg-desktop-portal-gnome pkgs.xdg-desktop-portal-gtk ];
+   };
+}
