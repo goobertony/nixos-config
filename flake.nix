@@ -6,8 +6,6 @@
   ";
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
-    home-manager.url = "github:nix-community/home-manager/master";
-    home-manager.inputs.nixpkgs.follows = "nixpkgs";
   };
 
 
@@ -21,9 +19,5 @@
           modules = [ ./configuration.nix ];
       };
     };
-     homeConfigurations = {
-        tonii = home-manager.lib.homeManagerConfiguration {
-          inherit pkgs;
-          modules = [ ./home.nix ];
   };
 }

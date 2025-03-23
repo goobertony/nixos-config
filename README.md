@@ -2,6 +2,7 @@
 ## current defaults
  - Bar: None
  - WM: niri
+ - Greeter: tuigreet
  - Text Editor: Helix, vim(installed but not configured/used)
  - Browser: Librewolf, tor, and Ungoogled-chromium
  - Discord Client: Webcord + vencord and standard discord client installed
