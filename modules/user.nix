@@ -28,7 +28,8 @@ hardware.opentabletdriver.enable = true;
         ghidra
         milkytracker
         steam
-        plover.dev
+       #plover.dev
+        ollama-rocm
         kicad
 	];
   };

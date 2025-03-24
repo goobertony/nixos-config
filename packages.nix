@@ -11,7 +11,7 @@
  #   # here, NOT in environment.systemPackages
  #   fuse
  #   glibc
-  ];
+ # ];
 
   nixpkgs.config = {
     allowUnfree = true;
@@ -59,6 +59,7 @@
     pkg-config
 
     # CLIs & utils
+    stow
     vim
     speedcrunch
     file
