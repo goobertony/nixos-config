@@ -52,7 +52,6 @@
     gcc
     nodejs
 
-  python312Packages.pyqt5
    python
     (python3.withPackages (ps: with ps; [ requests ]))
     cmake
@@ -129,7 +128,6 @@
     noto-fonts-cjk-serif
     comic-mono
     notonoto
-    maple-mono-NF
     zpix-pixel-font
     noto-fonts
     noto-fonts-emoji

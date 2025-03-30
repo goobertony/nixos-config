@@ -7,10 +7,6 @@ enable = true;
         extraDefCfg ="process-unmapped-keys yes concurrent-tap-hold true";
         config = ''
          
-          (defchordsv2
-          (a s)  c     200 all-released ()   
-          )
-         
          ;; (defsrc
          ;;   grv  1    2    3    4    5    6    7    8    9    0    -    =
          ;; tab  q    w    e    r    t    y    u    i    o    p    [    ]
@@ -18,29 +14,19 @@ enable = true;
          ;; lsft z    x    c    v    b    n    m    ,    .    /    rsft
          ;; lctl lmet lalt           spc            ralt menu rctl
          ;; )
-
           (defsrc
             grv  1    2    3    4    5    6    7    8    9    0    -    =
-          tab  f    d    l    g    v    q    r    u    o    ,    [    ]
-          caps s    t    h    c    y    j    n    e    a    i    /
-          lsft z    k    m    p    w    x    b    ;    '    .    rsft
-          lctl lmet lalt           spc  rmet          ralt menu rctl
+         tab  t    r    e    w    q    p    o    i    u    y    [    ]
+         caps g    f    d    s    a    ;    l    k    j    h    '
+         lsft b    v    c    x    z    /    .    ,    m    n    rsft
+          lctl met lalt           spc  rmeta         ralt menu rctl
           )
-          
           (deflayer inqwerted
             grv  1    2    3    4    5    6    7    8    9    0    -    =
          tab  t    r    e    w    q    p    o    i    u    y    [    ]
          @nav g    f    d    s    a    ;    l    k    j    h    '
          lsft b    v    c    x    z    /    .    ,    m    n    rsft
-          lctl met lalt           spc  rpt         @rin menu rctl
-          )
- 
-          (deflayer rain
-            grv  1    2    3    4    5    6    7    8    9    0    -    =
-          tab  f    d    l    g    v    q    r    u    o    ,    [    ]
-          @nav s    t    h    c    y    j    n    e    a    i    /
-          lsft z    k    m    p    w    x    b    ;    '    .    rsft
-          lctl lmet lalt           spc rpt           @qwr menu rctl
+          lctl met lalt           spc  rpt         @qwr menu rctl
           )
 
           (deflayer qwerty
@@ -53,16 +39,19 @@ enable = true;
           (deflayer navigation
             _  _    _    _    _    _    _    _    _    _    _    _    _
           _  _    _   _     _    _    _    mlft    mrgt    mmid    _    _    _
-          @rin  _    _    _    mlft    mrgt    _    left    down    up    right    _
+          _  _    _    _    mlft    mrgt    _    left    down    up    right    _
           _  _    _    _    @mwu    @mwd    _    _    _    _    _    _
           _ _ _           _  _          _ _ _
           )
           
+          (defzippy
+           ~/zippy.txt
+          )
 
           (defalias
             ;; layers
           qwr (layer-switch qwerty)
-          rin (layer-switch rain)
+          ;;rin (layer-switch rain)
           ;; sem (layer-switch semimak)
           pog (layer-switch inqwerted)
           nav (layer-while-held navigation)

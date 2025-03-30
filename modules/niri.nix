@@ -23,8 +23,10 @@ services.greetd = {
     mako
     swww
     xwayland-satellite
+    bibata-cursors
   ];
-  
+  xdg.icons.fallbackCursorThemes = [ "Bibata-Modern-Ice" ];
+
   environment.variables = {
 	NIXOS_OZONE_WL = "1";
         DISPLAY = "0";

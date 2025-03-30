@@ -18,6 +18,7 @@ hardware.opentabletdriver.enable = true;
       packages = with pkgs; [
 	#User Packages	
 	      blender
+        godot
         anki
         imhex
       	osu-lazer-bin
@@ -31,6 +32,7 @@ hardware.opentabletdriver.enable = true;
        #plover.dev
         ollama-rocm
         kicad
+        kanata
 	];
   };
 };
