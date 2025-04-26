@@ -42,6 +42,8 @@
          # moved to modules/User.nix
 
     # Coding stuff
+    libusb1
+    libusbp
     qt5Full
     qtcreator
     cargo
@@ -51,7 +53,7 @@
     lxde.lxsession
     gcc
     nodejs
-
+    qmk
    python
     (python3.withPackages (ps: with ps; [ requests ]))
     cmake
@@ -91,7 +93,7 @@
     kdePackages.qtsvg
     wineWowPackages.stable
     p7zip
-    
+    libratbag
     # GUI utils
     feh
     imv

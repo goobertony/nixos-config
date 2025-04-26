@@ -6,7 +6,7 @@
     ./user.nix
     ./nm.nix
     ./bluetooth.nix
-    ./wireshark.nix
+   # ./wireshark.nix
     ./niri.nix
   ];
 }

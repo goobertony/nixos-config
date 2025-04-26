@@ -39,7 +39,7 @@ enable = true;
           (deflayer navigation
             _  _    _    _    _    _    _    _    _    _    _    _    _
           _  _    _   _     _    _    _    mlft    mrgt    mmid    _    _    _
-          _  _    _    _    mlft    mrgt    _    left    down    up    right    _
+          _  _    _    mmid    mlft    mrgt    _    left    down    up    right    _
           _  _    _    _    @mwu    @mwd    _    _    _    _    _    _
           _ _ _           _  _          _ _ _
           )
