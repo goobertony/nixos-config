@@ -5,7 +5,7 @@
  # xdg.portal.config.common.default = "gtk";
  # xdg.portal.enable =true ;
  # services.flatpak.enable = true;
-  programs.nix-ld.enable = true;
+ #  programs.nix-ld.enable = true;
  # programs.nix-ld.libraries = with pkgs; [
  #   # Add any missing dynamic libraries for unpackaged programs
  #   # here, NOT in environment.systemPackages
@@ -42,23 +42,23 @@
          # moved to modules/User.nix
 
     # Coding stuff
-    libusb1
-    libusbp
-    qt5Full
-    qtcreator
     cargo
     rustc
-    go
-    gnumake
-    lxde.lxsession
     gcc
     nodejs
-    qmk
    python
-    (python3.withPackages (ps: with ps; [ requests ]))
+    (python3.withPackages (ps: with ps; [
+     configargparse
+     numpy
+     tkinter
+     pygame
+     #python312Packages.pygame
+     #python312Packages.numpy
+     requests
+     ]))
     cmake
     pkg-config
-
+    libclang
     # CLIs & utils
     stow
     vim
@@ -71,11 +71,9 @@
     fastfetch
     cowsay
     fortune
-    htop
+    btop
     nix-index
     unzip
-    scrot
-    xclip
     ffmpeg
     light
     lux
@@ -95,18 +93,10 @@
     p7zip
     libratbag
     # GUI utils
-    feh
-    imv
-    dmenu
-    screenkey
-    mako
-    gromit-mpx
 
     # stuff
     papirus-icon-theme
 
-    # WMs and stuff
-    dunst
 
     # Sound
     pipewire

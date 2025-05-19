@@ -23,10 +23,10 @@ enable = true;
           )
           (deflayer inqwerted
             grv  1    2    3    4    5    6    7    8    9    0    -    =
-         tab  t    r    e    w    q    p    o    i    u    y    [    ]
-         @nav g    f    d    s    a    ;    l    k    j    h    '
-         lsft b    v    c    x    z    /    .    ,    m    n    rsft
-          lctl met lalt           spc  rpt         @qwr menu rctl
+         tab  x    b    l    v    q    j    f    o    u    .    [    ]
+         @nav s    n    h    t    k    w    y    a    e    i    '
+         lsft z    p    m    d    ;    g    c    '    /    ,    rsft
+          lctl met lalt           r  spc         @qwr menu rctl
           )
 
           (deflayer qwerty

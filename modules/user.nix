@@ -17,22 +17,22 @@ hardware.opentabletdriver.enable = true;
       extraGroups = [ "networkmanager" "wheel" "input" "libvirtd" "uinput" ];
       packages = with pkgs; [
 	#User Packages	
-	      blender
+	      # blender
         godot
         anki
         imhex
-      	osu-lazer-bin
+      	# osu-lazer-bin
         aseprite
-        #wireshark
-        #jpexs
+        wireshark
+        jpexs
         ghidra
-        milkytracker
+        # milkytracker
         steam
-        plover.dev
+        # plover.dev
         #ollama-rocm
-        kicad
-        kanata
-        lunar-client
+       # kicad
+       kanata
+        # lunar-client
 	];
   };
 };

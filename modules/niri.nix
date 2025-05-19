@@ -9,7 +9,7 @@ services.greetd = {
       };
     };
   };
-
+  programs.waybar.enable = true;
   programs.niri = {
     enable = true;
     package = pkgs.niri;  
@@ -17,10 +17,12 @@ services.greetd = {
 
   environment.systemPackages = with pkgs; [
     niri
+    wl-clipboard
     polkit_gnome
     kitty
     dmenu-wayland
     mako
+    waybar
     swww
     xwayland-satellite
     bibata-cursors
