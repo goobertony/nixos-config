@@ -7,7 +7,7 @@
     ./nm.nix
     ./bluetooth.nix
     ./dwm/dwm.nix
-    ./printing.nix
+    ./printing/printing.nix
    # ./extras/wireshark.nix
     # ./extras/niri.nix
   ];
