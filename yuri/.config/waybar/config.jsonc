@@ -1,0 +1,13 @@
+{
+    "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["battery", "clock"],
+    "niri/workspaces": {},
+    "niri/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    }
+}

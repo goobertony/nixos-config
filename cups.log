@@ -1,0 +1,22 @@
+Jul 19 14:29:05 nixos cupsd[19421]: REQUEST localhost - - "POST /jobs HTTP/1.1" 200 139 Restart-Job successful-ok
+Jul 19 14:29:07 nixos cupsd[19421]: [Client 25] Started "/nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/cgi-bin/jobs.cgi" (pid=20944, file=12)
+Jul 19 14:29:09 nixos cupsd[19421]: [Client 25] Started "/nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/cgi-bin/jobs.cgi" (pid=20947, file=12)
+Jul 19 14:29:09 nixos cupsd[19421]: [Client 29] Limiting Get-Jobs response to 500 jobs.
+Jul 19 14:29:10 nixos cupsd[19421]: [Client 25] Started "/nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/cgi-bin/jobs.cgi" (pid=20951, file=12)
+Jul 19 14:29:10 nixos cupsd[19421]: [Client 30] Limiting Get-Jobs response to 500 jobs.
+Jul 19 14:29:11 nixos cupsd[19421]: [Client 25] Started "/nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/cgi-bin/jobs.cgi" (pid=20954, file=12)
+Jul 19 14:29:11 nixos cupsd[19421]: [Client 31] Limiting Get-Jobs response to 500 jobs.
+Jul 19 14:29:25 nixos cupsd[19421]: Saving printers.conf...
+Jul 19 14:29:25 nixos cupsd[19421]: Saving job.cache...
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Adding start banner page "none".
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Queued on "Star_TSP143_" by "tonii".
+Jul 19 14:31:41 nixos cupsd[19421]: REQUEST localhost - - "POST /printers/Star_TSP143_ HTTP/1.1" 200 362 Create-Job successful-ok
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] File of type text/plain queued by "tonii".
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Adding end banner page "none".
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Started filter /nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/filter/universal (PID 21322)
+Jul 19 14:31:41 nixos cupsd[19421]: Star_TSP143_: File "/nix/store/1ryrw0i4lvfby11x1y5nndkc7jhbf9z1-cups-progs/lib/cups/filter/rastertostar" not available: No such file or directory
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Unable to start filter "rastertostar" - No such file or directory.
+Jul 19 14:31:41 nixos cupsd[19421]: [Job 2] Stopping job because the scheduler could not execute a filter.
+Jul 19 14:31:41 nixos cupsd[19421]: REQUEST localhost - - "POST /printers/Star_TSP143_ HTTP/1.1" 200 245 Send-Document successful-ok
+Jul 19 14:32:12 nixos cupsd[19421]: Saving printers.conf...
+Jul 19 14:32:12 nixos cupsd[19421]: Saving job.cache...
