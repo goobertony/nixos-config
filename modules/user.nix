@@ -23,16 +23,16 @@ hardware.opentabletdriver.enable = true;
         imhex
       	# osu-lazer-bin
         aseprite
-        wireshark
+        # wireshark
         jpexs
         ghidra
-        # milkytracker
+        milkytracker
         steam
         # plover.dev
         #ollama-rocm
        # kicad
        kanata
-        # lunar-client
+        prismlauncher
 	];
   };
 };

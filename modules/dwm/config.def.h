@@ -12,14 +12,22 @@ static const char col_gray2[]       = "#444444";
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#005577";
+
+static const char col_yurigreen[]  = "#DBF22E";
+static const char col_black[]       = "#262200";
+static const char col_dgreen[]      = "#52591e";
+
+static const char col_lgreen[]      = "#697708";
+static const char col_white[]      = "#f2f2f2";
+
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
-	[SchemeSel]  = { col_gray4, col_cyan,  col_cyan  },
+	[SchemeNorm] = { col_black, col_yurigreen, col_yurigreen },
+	[SchemeSel]  = { col_white, col_dgreen,  col_dgreen  },
 };
 
 /* tagging */
-static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
+static const char *tags[] = { "一", "二", "三", "四", "五" };
 
 static const Rule rules[] = {
 	/* xprop(1):
@@ -30,7 +38,10 @@ static const Rule rules[] = {
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
 };
-
+static const char *const autostart[] = {
+	"feh", "--no-fehbg", "--bg-scale", "/home/tonii/.config/images/wall.png", NULL,
+	NULL
+};
 /* layout(s) */
 static const float mfact     = 0.55; /* factor of master area size [0.05..0.95] */
 static const int nmaster     = 1;    /* number of clients in master area */

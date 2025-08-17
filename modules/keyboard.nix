@@ -8,6 +8,14 @@
        fcitx5-nord            # a color theme
      ];
    };
+  services.libinput = {
+    enable = true;
+    mouse = {
+      # buttonMapping = "1 2 3 4 5 6 7 8 9 1 2 2";
+      scrollMethod = "button";
+      scrollButton = 12;
+       };
+  };
   services.kanata = {
 enable = true;
     keyboards = {
@@ -24,13 +32,22 @@ enable = true;
           lctl lmet lalt           spc rmeta            ralt menu rctl
           )
 
+          
+          (deflayer birdie
+            grv  1    2    3    4    5    6    7    8    9    0    -    =
+          tab  \    l    p    d    f    '    w    o    u    ;    [    ]
+          @nav t    s    n    h    m    g    c    a    i    e    /
+          lsft v    z    b    k    q    x    y    .    ,    j    rsft
+          lctl lmet lalt           r spc           ralt menu @qwr
+          )
           (deflayer qwerty
             grv  1    2    3    4    5    6    7    8    9    0    -    =
           tab  q    w    e    r    t    y    u    i    o    p    [    ]
           @nav a    s    d    f    g    h    j    k    l    ;    '
           lsft z    x    c    v    b    n    m    ,    .    /    rsft
-          lctl lmet lalt           spc rpt           ralt menu rctl
+          lctl lmet lalt           spc rpt           ralt menu @brd
           )
+          
           (deflayer navigation
             _  _    _    _    _    _    _    _    _    _    _    _    _
           _  _    _   _     _    _    _    mlft    mrgt    mmid    _    _    _
@@ -45,7 +62,9 @@ enable = true;
 
           (defalias
             ;; layers
-          ;; qwr (layer-switch qwerty)
+          
+          qwr (layer-switch qwerty)
+          brd (layer-switch birdie)
           nav (layer-while-held navigation)
 
             ;; mouse control for nav layer
