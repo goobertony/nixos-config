@@ -22,8 +22,8 @@ static const char col_white[]      = "#f2f2f2";
 
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
-	[SchemeNorm] = { col_black, col_yurigreen, col_yurigreen },
-	[SchemeSel]  = { col_white, col_dgreen,  col_dgreen  },
+	[SchemeNorm] = { col_black, col_yurigreen, col_dgreen },
+	[SchemeSel]  = { col_white, col_dgreen,  col_yurigreen  },
 };
 
 /* tagging */
@@ -69,7 +69,7 @@ static const Layout layouts[] = {
 /* commands */
 static char dmenumon[2] = "0"; /* component of dmenucmd, manipulated in spawn() */
 static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont, "-nb", col_gray1, "-nf", col_gray3, "-sb", col_cyan, "-sf", col_gray4, NULL };
-static const char *termcmd[]  = { "kitty", NULL };
+static const char *termcmd[]  = { "st", NULL };
 static const char *screenshotcmd[] = { "scrot", "-s", "screenshot_%Y%m%d_%H%M%S.png", "-e", "mkdir -p ~/screenshots && mv $f ~/screenshots && xclip -selection clipboard -t image/png -i ~/screenshots/`ls -1 -t ~/screenshots | head -1`", NULL };
 static const Key keys[] = {
 	/* modifier                     key        function        argument */

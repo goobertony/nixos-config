@@ -19,17 +19,18 @@
     packageOverrides = pkgs: with pkgs; {
   };
 };
-
+programs.adb.enable = true;
+  users.users.tonii.extraGroups = ["adbusers"];
   environment.systemPackages = with pkgs; [
      #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps  
-    kitty
     librewolf # web browser of choice
     nautilus
     vlc
     helix #text editor
     blugon
     dorion # discord
+    termpdfpy #ebook reader
     # user packages, for my personal uses
          # moved to modules/User.nix
 
@@ -39,22 +40,11 @@
     gcc
     gnumake
     nodejs
-   python
-    (python3.withPackages (ps: with ps; [
-     configargparse
-     numpy
-     tkinter
-     pygame
-     #python312Packages.pygame
-     #python312Packages.numpy
-     requests
-     ]))
     cmake
     pkg-config
     libclang
     # CLIs & utils
     stow
-    vim
     speedcrunch
     file
     tree
@@ -77,7 +67,6 @@
     kdePackages.qtsvg
     wineWowPackages.stable
     p7zip
-    libratbag
     # GUI utils
 
     # stuff
