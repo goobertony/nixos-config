@@ -15,7 +15,7 @@
 
   nixpkgs.config = {
     allowUnfree = true;
-    permittedInsecurePackages = ["python-2.7.18.8" "electron-25.9.0"];
+    permittedInsecurePackages = ["googleearth-pro-7.3.6.10201" "python-2.7.18.8" "electron-25.9.0"];
     packageOverrides = pkgs: with pkgs; {
   };
 };
@@ -25,15 +25,13 @@ programs.adb.enable = true;
      #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps  
     librewolf # web browser of choice
-    nautilus
     vlc
     helix #text editor
-    blugon
     dorion # discord
     termpdfpy #ebook reader
+    tenacity
     # user packages, for my personal uses
          # moved to modules/User.nix
-
     # Coding stuff
     cargo
     rustc

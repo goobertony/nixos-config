@@ -1,8 +1,7 @@
 # Nixos Configs
 ## current defaults
-- default dwm config
+- dwm + xfce
 - browser: Librewolf
-- discord client: dorion
 - greeter: tuigreet
 # Other Configs
   All other program configs (not related to the nix ecosystem) are found in the /yuri/.config folder 

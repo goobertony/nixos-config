@@ -10,5 +10,6 @@
     ./printing/printing.nix
    # ./extras/wireshark.nix
     # ./extras/niri.nix
+    # ./extras/monero.nix
   ];
 }

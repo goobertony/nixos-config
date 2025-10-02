@@ -21,12 +21,16 @@ hardware.opentabletdriver.enable = true;
         godot
         anki
         imhex
+        yabridge
+        yabridgectl
       	# osu-lazer-bin
         aseprite
         milkytracker
+        renoise
         steam
        # kicad
        kanata
+       googleearth-pro
         # prismlauncher
 	];
   };
