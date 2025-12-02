@@ -19,18 +19,19 @@ hardware.opentabletdriver.enable = true;
 	#User Packages	
 	      blender
         godot
-        anki
-        imhex
-        yabridge
-        yabridgectl
+        # nicotine-plus
+        # anki
+        # imhex
+        # yabridge
+        # yabridgectl
       	# osu-lazer-bin
         aseprite
         milkytracker
-        renoise
+        # renoise
         steam
        # kicad
        kanata
-       googleearth-pro
+       # googleearth-pro
         # prismlauncher
 	];
   };

@@ -50,9 +50,15 @@
       "key": "Packages",
       "keyIcon": " "
     },
+    
     {
       "type": "wm",
       "key": "WM      ",
+      "keyIcon": " "
+    },
+    {
+      "type": "de",
+      "key": "DE      ",
       "keyIcon": " "
     },
     {

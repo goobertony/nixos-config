@@ -1,9 +1,5 @@
 {
-  description = "
-                            __   __      ___                 ___
-    |\/| \ /    |\ | | \_/ /  \ /__`    |__  |     /\  |__/ |__
-    |  |  |     | \| | / \ \__/ .__/    |    |___ /~~\ |  \ |___
-  ";
+  description = "goober_tonii";
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     musnix  = { url = "github:musnix/musnix"; };

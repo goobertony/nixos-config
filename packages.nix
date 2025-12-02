@@ -30,49 +30,19 @@ programs.adb.enable = true;
     dorion # discord
     termpdfpy #ebook reader
     tenacity
+    # speedcrunch
     # user packages, for my personal uses
          # moved to modules/User.nix
-    # Coding stuff
-    cargo
-    rustc
-    gcc
-    gnumake
-    nodejs
-    cmake
-    pkg-config
-    libclang
-    # CLIs & utils
     stow
-    speedcrunch
-    file
-    tree
-    font-manager
     wget
     git
     fastfetch
-    cowsay
-    fortune
-    btop
     nix-index
-    unzip
-    ffmpeg
-    mediainfo
-    ranger
-    zram-generator
-    zip
-    bluez
-    bluez-tools
-    kdePackages.qtsvg
-    wineWowPackages.stable
     p7zip
     # GUI utils
 
     # stuff
     papirus-icon-theme
-
-
-    # Sound
-    pipewire
     alsa-utils
 
     # GPU stuff 
@@ -91,15 +61,10 @@ programs.adb.enable = true;
     noto-fonts-extra
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
-    comic-mono
     notonoto
-    zpix-pixel-font
     noto-fonts
     noto-fonts-emoji
-    twemoji-color-font
     font-awesome
-    powerline-fonts
-    powerline-symbols
     
   ];
 }
