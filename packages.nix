@@ -27,7 +27,6 @@ programs.adb.enable = true;
     librewolf # web browser of choice
     vlc
     helix #text editor
-    dorion # discord
     termpdfpy #ebook reader
     tenacity
     # speedcrunch
@@ -45,25 +44,16 @@ programs.adb.enable = true;
     papirus-icon-theme
     alsa-utils
 
-    # GPU stuff 
-    amdvlk
-    glib
-
-    # Other
-
-   # home-manager
 
   ];
 
   fonts.packages = with pkgs; [
     jetbrains-mono
-    noto-fonts
-    noto-fonts-extra
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
     notonoto
     noto-fonts
-    noto-fonts-emoji
+    noto-fonts-color-emoji
     font-awesome
     
   ];
