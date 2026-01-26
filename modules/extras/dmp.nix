@@ -6,5 +6,6 @@
     yabridge
     yabridgectl
     milkytracker
+    ardour
   ];
 }

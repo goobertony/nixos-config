@@ -8,7 +8,7 @@
     ./bluetooth.nix
     ./dwm/dwm.nix
     ./printing/printing.nix
-   # ./extras/wireshark.nix
+   ./extras/wireshark.nix
     # ./extras/niri.nix
     # ./extras/monero.nix
     ./extras/dmp.nix #digital music production tools

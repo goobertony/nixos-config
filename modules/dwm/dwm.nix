@@ -42,36 +42,30 @@ services.greetd = {
       pkgs.adwaita-icon-theme
       pkgs.hicolor-icon-theme
       pkgs.tango-icon-theme
-      pkgs.xfce.xfce4-icon-theme
-      pkgs.xfce.mousepad
-      pkgs.xfce.parole
-      pkgs.xfce.ristretto
-      pkgs.xfce.xfce4-screenshooter
-      pkgs.xfce.xfwm4
-      pkgs.xfce.xfwm4-themes
-      pkgs.xfce.xfce4-screensaver
+      pkgs.xfce4-icon-theme
+      pkgs.mousepad
+      pkgs.parole
+      pkgs.ristretto
+      pkgs.xfce4-screenshooter
+      pkgs.xfwm4
+      pkgs.xfwm4-themes
+      pkgs.xfce4-screensaver
+      pkgs.xterm
   ];
   environment.systemPackages = with pkgs; [
-    (st.overrideAttrs (oldAttrs: rec {
-        src = ./st;
-       buildInputs = oldAttrs.buildInputs ++ [harfbuzz imlib2 ];
-    }))
-
-    # (slstatus.overrideAttrs (oldAttrs: rec {
-      # configFile = ./slstatus-config.def.h; 
-    # }))
+    st-snazzy 
     imlib2
     xclip
     feh
     scrot
     # tuigreet
     dmenu
-    
-    xfce.xfce4-panel
-    xfce.xfce4-pulseaudio-plugin
-    xfce.xfce4-sensors-plugin
-    xfce.xfce4-systemload-plugin
-    xfce.xfce4-mpc-plugin
+    blugon
+    xfce4-panel
+    xfce4-pulseaudio-plugin
+    xfce4-sensors-plugin
+    xfce4-systemload-plugin
+    xfce4-mpc-plugin
   ];
 
   

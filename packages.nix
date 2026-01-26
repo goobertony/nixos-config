@@ -19,17 +19,15 @@
     packageOverrides = pkgs: with pkgs; {
   };
 };
-programs.adb.enable = true;
   users.users.tonii.extraGroups = ["adbusers"];
   environment.systemPackages = with pkgs; [
      #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps  
     librewolf # web browser of choice
+    ungoogled-chromium
     vlc
     helix #text editor
-    termpdfpy #ebook reader
     tenacity
-    # speedcrunch
     # user packages, for my personal uses
          # moved to modules/User.nix
     stow
@@ -38,6 +36,9 @@ programs.adb.enable = true;
     fastfetch
     nix-index
     p7zip
+    jack2
+    jack-example-tools
+    qjackctl
     # GUI utils
 
     # stuff
@@ -48,7 +49,8 @@ programs.adb.enable = true;
   ];
 
   fonts.packages = with pkgs; [
-    jetbrains-mono
+    nerd-fonts.jetbrains-mono
+    nerd-fonts.lilex
     noto-fonts-cjk-sans
     noto-fonts-cjk-serif
     notonoto

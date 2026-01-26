@@ -14,24 +14,24 @@ hardware.opentabletdriver.enable = true;
     users.tonii = {
       isNormalUser = true;
       description = "tonii";
-      extraGroups = [ "networkmanager" "wheel" "input" "libvirtd" "uinput" ];
+      extraGroups = [ "networkmanager" "wheel" "input" "libvirtd" "uinput" "wireshark" ];
       packages = with pkgs; [
-	#User Packages	
+	#User Packages
 	      blender
         godot
+        mixxx
+        midimonster
+        libevdev
         # nicotine-plus
-        # anki
+        anki
+        rust-analyzer
         # imhex
-        # yabridge
-        # yabridgectl
       	# osu-lazer-bin
         aseprite
-        milkytracker
         # renoise
         steam
        # kicad
        kanata
-       # googleearth-pro
         # prismlauncher
 	];
   };

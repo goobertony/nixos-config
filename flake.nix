@@ -3,6 +3,7 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-unstable";
     musnix  = { url = "github:musnix/musnix"; };
+    st.url = "github:siduck/st";
   };
   outputs = { self, nixpkgs, musnix, ... }:
     let

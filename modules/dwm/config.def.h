@@ -42,6 +42,7 @@ static const Rule rules[] = {
 };
 static const char *const autostart[] = {
 	"feh", "--no-fehbg", "--bg-scale", "/home/tonii/.config/images/wall.png", NULL,
+	"blugon", NULL,
 	NULL
 };
 /* layout(s) */

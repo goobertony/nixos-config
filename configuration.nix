@@ -13,9 +13,10 @@ hardware.amdgpu.opencl.enable = true;
     dates = "daily";
     options = "--delete-older-than 7d";
   };
+  nix.settings.auto-optimise-store = true;
 
   networking.hostName = "nixos"; # Define your hostname.
-  networking.wireless.userControlled.enable =true;
+  networking.wireless.userControlled = true;
 
   time.timeZone = "America/Chicago"; # Set your time zone.
   
