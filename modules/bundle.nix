@@ -11,6 +11,7 @@
    ./extras/wireshark.nix
     # ./extras/niri.nix
     # ./extras/monero.nix
+    # ./extras/waydroid.nix #android emulator
     ./extras/dmp.nix #digital music production tools
   ];
 }

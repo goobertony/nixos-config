@@ -19,7 +19,6 @@
     packageOverrides = pkgs: with pkgs; {
   };
 };
-  users.users.tonii.extraGroups = ["adbusers"];
   environment.systemPackages = with pkgs; [
      #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps  
@@ -39,6 +38,7 @@
     jack2
     jack-example-tools
     qjackctl
+    busybox
     # GUI utils
 
     # stuff

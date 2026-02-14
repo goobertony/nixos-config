@@ -18,7 +18,7 @@ services.greetd = {
   desktopManager.xfce = {
     enable = true;
     enableXfwm = false;
-    noDesktop = true;
+    noDesktop= true;
   };
   windowManager.dwm = {
     enable = true;
@@ -66,6 +66,7 @@ services.greetd = {
     xfce4-sensors-plugin
     xfce4-systemload-plugin
     xfce4-mpc-plugin
+    xfce4-timer-plugin
   ];
 
   
