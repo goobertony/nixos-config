@@ -9,7 +9,7 @@
     ./dwm/dwm.nix
     ./printing/printing.nix
     ./extras/wireshark.nix
-    ./extras/game-dev.nix #includes various creative tools used for making games
+    ./extras/game-dev.nix # includes various creative tools used for making games
     # ./extras/niri.nix
     # ./extras/monero.nix
     # ./extras/waydroid.nix #android emulator
