@@ -7,6 +7,5 @@
   };
   users.users.tonii.extraGroups = [ "wireshark" ];
   users.groups.wireshark.gid = 500;
-  
+
 }
-             

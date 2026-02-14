@@ -1,13 +1,13 @@
-{ inputs, ...}: {
+{ inputs, ... }:
+{
   imports = [
     ./hardware-configuration.nix
     ./modules/bundle.nix
     ./packages.nix
   ];
 
-
-#  nixpkgs.overlays = [ inputs.polymc.overlay ];
-hardware.amdgpu.opencl.enable = true;
+  #  nixpkgs.overlays = [ inputs.polymc.overlay ];
+  hardware.amdgpu.opencl.enable = true;
   nix.gc = {
     automatic = true;
     dates = "weeklyy";
@@ -19,10 +19,13 @@ hardware.amdgpu.opencl.enable = true;
   networking.wireless.userControlled = true;
 
   time.timeZone = "America/Chicago"; # Set your time zone.
-  
+
   i18n.defaultLocale = "en_US.UTF-8"; # Select internationalisation properties.
 
-   nix.settings.experimental-features = [ "nix-command" "flakes" ]; # Enabling flakes
+  nix.settings.experimental-features = [
+    "nix-command"
+    "flakes"
+  ]; # Enabling flakes
 
   system.stateVersion = "25.05"; # Don't change it vro
 

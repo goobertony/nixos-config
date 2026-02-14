@@ -1,6 +1,6 @@
 { lib, pkgs, ... }:
 {
-services.greetd = {
+  services.greetd = {
     enable = true;
     settings = {
       default_session = {
@@ -12,7 +12,7 @@ services.greetd = {
   programs.waybar.enable = true;
   programs.niri = {
     enable = true;
-    package = pkgs.niri;  
+    package = pkgs.niri;
   };
 
   environment.systemPackages = with pkgs; [
@@ -30,11 +30,14 @@ services.greetd = {
   xdg.icons.fallbackCursorThemes = [ "Bibata-Modern-Ice" ];
 
   environment.variables = {
-	NIXOS_OZONE_WL = "1";
-        DISPLAY = "0";
-   };
-   xdg.portal = {
-	enable = true;
-	extraPortals = [pkgs.xdg-desktop-portal-gnome pkgs.xdg-desktop-portal-gtk ];
-   };
+    NIXOS_OZONE_WL = "1";
+    DISPLAY = "0";
+  };
+  xdg.portal = {
+    enable = true;
+    extraPortals = [
+      pkgs.xdg-desktop-portal-gnome
+      pkgs.xdg-desktop-portal-gtk
+    ];
+  };
 }

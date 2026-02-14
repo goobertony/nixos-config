@@ -1,34 +1,39 @@
-{config, pkgs, ... }:
- {
-	#enable flatpaks
- # xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
- # xdg.portal.config.common.default = "gtk";
- # xdg.portal.enable =true ;
- # services.flatpak.enable = true;
- #  programs.nix-ld.enable = true;
- # programs.nix-ld.libraries = with pkgs; [
- #   # Add any missing dynamic libraries for unpackaged programs
- #   # here, NOT in environment.systemPackages
- #   fuse
- #   glibc
- # ];
+{ config, pkgs, ... }:
+{
+  #enable flatpaks
+  # xdg.portal.extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+  # xdg.portal.config.common.default = "gtk";
+  # xdg.portal.enable =true ;
+  # services.flatpak.enable = true;
+  #  programs.nix-ld.enable = true;
+  # programs.nix-ld.libraries = with pkgs; [
+  #   # Add any missing dynamic libraries for unpackaged programs
+  #   # here, NOT in environment.systemPackages
+  #   fuse
+  #   glibc
+  # ];
 
   nixpkgs.config = {
     allowUnfree = true;
-    permittedInsecurePackages = ["googleearth-pro-7.3.6.10201" "python-2.7.18.8" "electron-25.9.0"];
-    packageOverrides = pkgs: with pkgs; {
+    permittedInsecurePackages = [
+      "googleearth-pro-7.3.6.10201"
+      "python-2.7.18.8"
+      "electron-25.9.0"
+    ];
+    packageOverrides =
+      pkgs: with pkgs; {
+      };
   };
-};
   environment.systemPackages = with pkgs; [
-     #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
-    # Desktop apps  
+    #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
+    # Desktop apps
     librewolf # web browser of choice
     ungoogled-chromium
     vlc
-    helix #text editor
+    helix # text editor
     tenacity
     # user packages, for my personal uses
-         # moved to modules/User.nix
+    # moved to modules/User.nix
     stow
     wget
     git
@@ -45,7 +50,6 @@
     papirus-icon-theme
     alsa-utils
 
-
   ];
 
   fonts.packages = with pkgs; [
@@ -57,6 +61,6 @@
     noto-fonts
     noto-fonts-color-emoji
     font-awesome
-    
+
   ];
 }

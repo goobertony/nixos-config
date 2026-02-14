@@ -1,8 +1,9 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   musnix.enable = true;
   environment.systemPackages = with pkgs; [
     tenacity # audacity fork
-    renoise 
+    renoise
     yabridge
     yabridgectl
     milkytracker
