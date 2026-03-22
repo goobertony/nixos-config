@@ -13,6 +13,6 @@
     # ./extras/niri.nix
     # ./extras/monero.nix
     # ./extras/waydroid.nix #android emulator
-    # ./extras/dmp.nix #digital music production tools
+    ./extras/dmp.nix # digital music production tools
   ];
 }

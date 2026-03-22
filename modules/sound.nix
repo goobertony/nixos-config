@@ -8,6 +8,22 @@
 
   services.pipewire = {
     enable = true;
+    wireplumber.extraConfig = {
+      "discord-block-volume" = {
+        "policy-node.rules" = [
+          {
+            matches = [
+              { "application.name" = "~Discord.*"; }
+            ];
+            actions = {
+              "update-props" = {
+                "node.quirks" = "block-source-volume";
+              };
+            };
+          }
+        ];
+      };
+    };
     alsa.enable = true;
     #   alsa.support32Bit = true;
     pulse.enable = true;

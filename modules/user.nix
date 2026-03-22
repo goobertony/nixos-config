@@ -26,10 +26,12 @@
       packages = with pkgs; [
         #User Packages
         mixxx
+        fooyin
+        debootstrap
         midimonster
         libevdev
         # nicotine-plus
-        anki
+        # anki
         rust-analyzer
         # imhex
         # osu-lazer-bin
@@ -38,6 +40,7 @@
         # kicad
         kanata
         # prismlauncher
+        lunar-client
       ];
     };
   };

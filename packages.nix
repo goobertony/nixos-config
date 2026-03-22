@@ -32,6 +32,7 @@
     vlc
     helix # text editor
     tenacity
+    inkscape
     # user packages, for my personal uses
     # moved to modules/User.nix
     stow
