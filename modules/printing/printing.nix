@@ -11,9 +11,9 @@ in
   services.printing = {
     enable = true;
     drivers = [
-      rastertostar
+      rastertostar # Adds compatibility for Star Micronics POS printers
       pkgs.cups-filters
       pkgs.cups-browsed
-    ]; # Adds compatibility for Star Micronics POS printers
+    ];
   };
 }

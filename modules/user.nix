@@ -28,16 +28,21 @@
         mixxx
         fooyin
         debootstrap
-        midimonster
-        libevdev
+        # midimonster
+        # libevdev
+        # davinci-resolve
+        kdePackages.kdenlive
+        python3
         # nicotine-plus
-        # anki
+        anki
         rust-analyzer
         # imhex
         # osu-lazer-bin
         # renoise
         steam
         # kicad
+        ghidra
+        jpexs
         kanata
         # prismlauncher
         lunar-client

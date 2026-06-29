@@ -38,6 +38,7 @@ static const Rule rules[] = {
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
+	{ "Toolkit", NULL, "Picture-in-Picture",  0, 1 ,          -1 },
 	{ panel[1],   NULL,       NULL,       (1 << 9) - 1, 1,           -1 },
 };
 static const char *const autostart[] = {
@@ -90,6 +91,7 @@ static const Key keys[] = {
 	{ MODKEY,                       XK_Return, zoom,           {0} },
 	{ MODKEY,                       XK_Tab,    view,           {0} },
 	{ MODKEY|ShiftMask,             XK_c,      killclient,     {0} },
+/*	{ MODKEY,                       XK_w,      togglealwaysontop, {0} }, */
 	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },

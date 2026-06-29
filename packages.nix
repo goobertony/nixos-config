@@ -16,9 +16,8 @@
   nixpkgs.config = {
     allowUnfree = true;
     permittedInsecurePackages = [
-      "googleearth-pro-7.3.6.10201"
-      "python-2.7.18.8"
-      "electron-25.9.0"
+      "librewolf-151.0.2-1"
+      "librewolf-unwrapped-151.0.2-1"
     ];
     packageOverrides =
       pkgs: with pkgs; {
@@ -28,6 +27,8 @@
     #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps
     librewolf # web browser of choice
+    # chawan
+    # vesktop
     ungoogled-chromium
     vlc
     helix # text editor
@@ -45,11 +46,17 @@
     jack-example-tools
     qjackctl
     busybox
+    wineWow64Packages.stable
+
     # GUI utils
 
     # stuff
     papirus-icon-theme
     alsa-utils
+    mesa
+    vulkan-tools
+    vulkan-loader
+    khronos-ocl-icd-loader
 
   ];
 

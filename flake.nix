@@ -1,7 +1,8 @@
 {
   description = "goober_tonii";
   inputs = {
-    nixpkgs.url = "nixpkgs/nixos-unstable";
+    nixpkgs.url = "nixpkgs/nixos-25.11";
+    nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
     musnix = {
       url = "github:musnix/musnix";
     };
