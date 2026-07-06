@@ -1,0 +1,531 @@
+{
+  "entries": [
+    {
+      "byte_size": 29,
+      "captured_at_ms": 1783297436274,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783297436274-9",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783297436274-9.bin",
+      "pinned": false,
+      "text_preview": "_JAVA_AWT_WM_NONREPARENTING=1"
+    },
+    {
+      "byte_size": 95,
+      "captured_at_ms": 1783292502605,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783292502605-7",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783292502605-7.bin",
+      "pinned": false,
+      "text_preview": "https://video.twimg.com/amplify_video/2073804906440347648/vid/avc1/970x720/cNbqekaZ5aRMUKsE.mp4"
+    },
+    {
+      "byte_size": 55,
+      "captured_at_ms": 1783292484852,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783292484852-6",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783292484852-6.bin",
+      "pinned": false,
+      "text_preview": "https://x.com/NatureUnedited/status/2073807945926656408"
+    },
+    {
+      "byte_size": 379995,
+      "captured_at_ms": 1783290481138,
+      "data_mime_type": "image/png",
+      "id": "1783290481138-5",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290481138-5.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 109700,
+      "captured_at_ms": 1783290443280,
+      "data_mime_type": "image/png",
+      "id": "1783290443280-4",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290443280-4.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 330634,
+      "captured_at_ms": 1783290427050,
+      "data_mime_type": "image/png",
+      "id": "1783290427050-3",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290427050-3.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 93336,
+      "captured_at_ms": 1783289888447,
+      "data_mime_type": "image/png",
+      "id": "1783289888447-2",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783289888447-2.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 148,
+      "captured_at_ms": 1783289625649,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783289625649-1",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783289625649-1.bin",
+      "pinned": false,
+      "text_preview": "  settings = {     yazi = lib.importTOML ./settings.toml;     keymap = lib.importTOML ./keymap.toml;     #theme = lib.importTOML ./theme.toml;      "
+    },
+    {
+      "byte_size": 50,
+      "captured_at_ms": 1783047176185,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783047176185-12",
+      "mime_types": [
+        "x-special/gnome-copied-files",
+        "text/plain;charset=utf-8",
+        "text/uri-list",
+        "application/vnd.portal.filetransfer",
+        "application/vnd.portal.files"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783047176185-12.bin",
+      "pinned": false,
+      "text_preview": "/home/tonii/Videos/twitter_2072592214333751574.gif"
+    },
+    {
+      "byte_size": 42,
+      "captured_at_ms": 1783047142973,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783047142973-11",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783047142973-11.bin",
+      "pinned": false,
+      "text_preview": "https://x.com/i/status/2072592214333751574"
+    },
+    {
+      "byte_size": 25,
+      "captured_at_ms": 1783046841861,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783046841861-10",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046841861-10.bin",
+      "pinned": false,
+      "text_preview": "services.mpd.openFirewall"
+    },
+    {
+      "byte_size": 135,
+      "captured_at_ms": 1783046741326,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783046741326-9",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046741326-9.bin",
+      "pinned": false,
+      "text_preview": "users.groups.user_group_name.members = [ \"mpd\" ];    systemd.tmpfiles.rules = [     \"d /home/tonii 0710 tonii user_group_name - -\"   ];"
+    },
+    {
+      "byte_size": 230,
+      "captured_at_ms": 1783046695168,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783046695168-8",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046695168-8.bin",
+      "pinned": false,
+      "text_preview": "    dd the mpd user to the user's group and grant group execute permission to the user directory. This way the mpd user has permission to open the user directory:  # gpasswd -a mpd user_group_name $ c"
+    },
+    {
+      "byte_size": 1670,
+      "captured_at_ms": 1783045898380,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045898379-6",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045898379-6.bin",
+      "pinned": false,
+      "text_preview": "{ config, ... }:  let   home = config.home.homeDirectory; in {   services = {     mpd = {       enable = true;       dataDir = \"${home}/.cache/mpd\";       musicDirectory = \"${home}/Music\";       playl"
+    },
+    {
+      "byte_size": 20,
+      "captured_at_ms": 1783045468446,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045468446-5",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045468446-5.bin",
+      "pinned": false,
+      "text_preview": "nix run nixpkgs#rmpc"
+    },
+    {
+      "byte_size": 50,
+      "captured_at_ms": 1783045416171,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045416171-4",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045416171-4.bin",
+      "pinned": false,
+      "text_preview": "bash <(curl -sL https://rmpc.mierak.dev//run-rmpc)"
+    },
+    {
+      "byte_size": 12,
+      "captured_at_ms": 1783045188393,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045188393-3",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045188393-3.bin",
+      "pinned": false,
+      "text_preview": "mpc listall "
+    },
+    {
+      "byte_size": 10,
+      "captured_at_ms": 1783045181869,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045181869-2",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045181869-2.bin",
+      "pinned": false,
+      "text_preview": "mpc update"
+    },
+    {
+      "byte_size": 7,
+      "captured_at_ms": 1783045090045,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783045090045-1",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045090045-1.bin",
+      "pinned": false,
+      "text_preview": "ncmpcpp"
+    },
+    {
+      "byte_size": 8,
+      "captured_at_ms": 1783013228301,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783013228301-32",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783013228301-32.bin",
+      "pinned": false,
+      "text_preview": "#EB-3882"
+    },
+    {
+      "byte_size": 21,
+      "captured_at_ms": 1783013013219,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783013013219-31",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783013013219-31.bin",
+      "pinned": false,
+      "text_preview": "protocol.tiiny.site/ "
+    },
+    {
+      "byte_size": 51138,
+      "captured_at_ms": 1783012934823,
+      "data_mime_type": "image/png",
+      "id": "1783012934823-30",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012934823-30.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 44,
+      "captured_at_ms": 1783012574740,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783012574740-29",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012574740-29.bin",
+      "pinned": false,
+      "text_preview": "cat /run/mpd/mpd.conf | grep music_directory"
+    },
+    {
+      "byte_size": 40,
+      "captured_at_ms": 1783012549358,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783012549358-28",
+      "mime_types": [
+        "application/glfw+clipboard-39203",
+        "TEXT",
+        "STRING",
+        "UTF8_STRING",
+        "text/plain;charset=utf-8",
+        "text/plain"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012549358-28.bin",
+      "pinned": false,
+      "text_preview": "tonii@nixos:~/Music/ > rmpc listall \"/\" "
+    },
+    {
+      "byte_size": 27,
+      "captured_at_ms": 1783012537797,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783012537797-27",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012537797-27.bin",
+      "pinned": false,
+      "text_preview": "rmpc listall \"/\" | head -20"
+    }
+  ]
+}

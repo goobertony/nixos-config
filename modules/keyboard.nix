@@ -12,7 +12,7 @@
   services.libinput = {
     enable = true;
     mouse = {
-      # buttonMapping = "1 2 3 4 5 6 7 8 9 1 2 2";
+      buttonMapping = "1 2 3 4 5 6 7 8 9 1 2 2";
       scrollMethod = "button";
       scrollButton = 12;
     };

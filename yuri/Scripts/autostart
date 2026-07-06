@@ -1,0 +1,14 @@
+#! /usr/bin/env zsh
+current_theme=$(dconf read /org/gnome/desktop/interface/gtk-theme)
+
+if [ "${current_theme}" = "'Adwaita-light'" ]; then
+    awww img ~/Pictures/Wallpapers/pinkswirls.jpg &
+    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
+    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
+    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
+else
+    awww img ~/Pictures/Wallpapers/dark-pink-topo.png &
+    kitty sh -c "~/Downloads/misc/concord/target/release/concord" &
+    sleep 1.7 && kitty sh -c "sleep 0.2 && yazi" &
+    kitty sh -c "sleep 0.2 && niri msg action consume-or-expel-window-left && rmpc" &
+fi

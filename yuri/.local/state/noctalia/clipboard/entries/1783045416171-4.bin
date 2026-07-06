@@ -1,0 +1,1 @@
+bash <(curl -sL https://rmpc.mierak.dev//run-rmpc)

@@ -25,8 +25,8 @@
       package = pkgs.dwm.override {
         patches = [
           # (pkgs.fetchpatch {
-            # url = "https://dwm.suckless.org/patches/alwaysontop/alwaysontopall-6.2.diff";
-            # hash = "sha256-niEuFXjRMVB/tLsfBiAIQ57j8F93RFu9Sh9091aE0z0=";
+          # url = "https://dwm.suckless.org/patches/alwaysontop/alwaysontopall-6.2.diff";
+          # hash = "sha256-niEuFXjRMVB/tLsfBiAIQ57j8F93RFu9Sh9091aE0z0=";
           # })
           (pkgs.fetchpatch {
             url = "https://dwm.suckless.org/patches/cool_autostart/dwm-cool_autostart-6.5.diff";

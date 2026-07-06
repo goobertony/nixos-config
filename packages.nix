@@ -13,16 +13,6 @@
   #   glibc
   # ];
 
-  nixpkgs.config = {
-    allowUnfree = true;
-    permittedInsecurePackages = [
-      "librewolf-151.0.2-1"
-      "librewolf-unwrapped-151.0.2-1"
-    ];
-    packageOverrides =
-      pkgs: with pkgs; {
-      };
-  };
   environment.systemPackages = with pkgs; [
     #NOTE, some system packages are contained in the module for the wm, niri.nix/dwm.nix etc, these mainly include bare essentials.
     # Desktop apps
@@ -46,8 +36,8 @@
     jack-example-tools
     qjackctl
     busybox
-    wineWow64Packages.stable
-
+    # wineWow64Packages.stable
+    # wine-staging
     # GUI utils
 
     # stuff

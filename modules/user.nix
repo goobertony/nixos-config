@@ -1,6 +1,6 @@
 { pkgs, ... }:
 {
-  programs.fish.enable = true;
+  programs.zsh.enable = true;
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
@@ -10,7 +10,7 @@
   hardware.opentabletdriver.enable = true;
 
   users = {
-    defaultUserShell = pkgs.fish;
+    defaultUserShell = pkgs.zsh;
 
     users.tonii = {
       isNormalUser = true;
@@ -26,13 +26,12 @@
       packages = with pkgs; [
         #User Packages
         mixxx
-        fooyin
-        debootstrap
+        # debootstrap
         # midimonster
         # libevdev
         # davinci-resolve
-        kdePackages.kdenlive
-        python3
+        # kdePackages.kdenlive
+        # python3
         # nicotine-plus
         anki
         rust-analyzer

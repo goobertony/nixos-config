@@ -51,12 +51,11 @@
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1781577229,
-        "narHash": "sha256-lrp67w8AulE9Ks53n27I45ADSzbOCn4H+CNW1Ck8B+8=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "567a49d1913ce81ac6e9582e3553dd90a955875f",
-        "type": "github"
+        "lastModified": 1782467914,
+        "narHash": "sha256-inDx/w70OSJoJPqtKh0BrzAsbZZhpya7YgS43jHnhwg=",
+        "rev": "e73de5be04e0eff4190a1432b946d469c794e7b4",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.11pre1022855.e73de5be04e0/nixexprs.tar.xz"
       },
       "original": {
         "id": "nixpkgs",
@@ -66,16 +65,15 @@
     },
     "nixpkgs_2": {
       "locked": {
-        "lastModified": 1781509190,
-        "narHash": "sha256-uJZs9Di8I6ciTp6jiojj0HzlNpBkud8ax5aT/O5aJkw=",
-        "owner": "NixOS",
-        "repo": "nixpkgs",
-        "rev": "d6df3513510aa548c83868fd22bfddd0a8c0a0d4",
-        "type": "github"
+        "lastModified": 1782535326,
+        "narHash": "sha256-r4TA57SL7nvj1R+GY/FCLwFU48w9IixTQlzBTIYkt8E=",
+        "rev": "714a5f8c4ead6b31148d829288440ed033ccc041",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/26.05/nixos-26.05.3494.714a5f8c4ead/nixexprs.tar.xz"
       },
       "original": {
         "id": "nixpkgs",
-        "ref": "nixos-25.11",
+        "ref": "nixos-26.05",
         "type": "indirect"
       }
     },
@@ -95,11 +93,32 @@
         "type": "github"
       }
     },
+    "noctalia": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs-unstable"
+        ]
+      },
+      "locked": {
+        "lastModified": 1782752009,
+        "narHash": "sha256-+H6nBHPo67v1Y8C7mD/m3eOlYOiBaIETqTN+ZSxiMgg=",
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "rev": "47382149c5d681a0ec28b7ae23ded4aff5cd8f99",
+        "type": "github"
+      },
+      "original": {
+        "owner": "noctalia-dev",
+        "repo": "noctalia",
+        "type": "github"
+      }
+    },
     "root": {
       "inputs": {
         "musnix": "musnix",
         "nixpkgs": "nixpkgs_2",
         "nixpkgs-unstable": "nixpkgs-unstable",
+        "noctalia": "noctalia",
         "st": "st"
       }
     },

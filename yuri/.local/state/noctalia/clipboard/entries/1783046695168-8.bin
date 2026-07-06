@@ -1,0 +1,4 @@
+    dd the mpd user to the user's group and grant group execute permission to the user directory. This way the mpd user has permission to open the user directory:
+
+# gpasswd -a mpd user_group_name
+$ chmod 710 /home/user_directory
