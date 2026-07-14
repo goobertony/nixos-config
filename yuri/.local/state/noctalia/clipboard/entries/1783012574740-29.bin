@@ -1,1 +1,0 @@
-cat /run/mpd/mpd.conf | grep music_directory

@@ -1,5 +1,0 @@
-users.groups.user_group_name.members = [ "mpd" ];
-
-  systemd.tmpfiles.rules = [
-    "d /home/tonii 0710 tonii user_group_name - -"
-  ];

@@ -115,7 +115,7 @@
     # --- Windows VST Compatibility ---
     yabridge
     yabridgectl
-    wine64Packages.yabridge
-    # wineWow64Packages.stable  # Use stable, not staging, for VST compatibility
+    # wine64Packages.yabridge
+    wineWow64Packages.yabridge  # 32 bit compatibility
   ];
 }

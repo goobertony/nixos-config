@@ -44,6 +44,7 @@
     xwayland-satellite
     catppuccin-cursors
     thunar
+    gvfs
     btop
     concord
     foot

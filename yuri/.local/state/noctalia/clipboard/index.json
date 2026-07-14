@@ -1,10 +1,10 @@
 {
   "entries": [
     {
-      "byte_size": 29,
-      "captured_at_ms": 1783297436274,
+      "byte_size": 52,
+      "captured_at_ms": 1784050995922,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783297436274-9",
+      "id": "1784050995922-6",
       "mime_types": [
         "text/html",
         "text/_moz_htmlcontext",
@@ -20,137 +20,15 @@
         "text/x-moz-url-priv",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783297436274-9.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784050995922-6.bin",
       "pinned": false,
-      "text_preview": "_JAVA_AWT_WM_NONREPARENTING=1"
+      "text_preview": "yuri/.local/state/noctalia/notification_history.json"
     },
     {
-      "byte_size": 95,
-      "captured_at_ms": 1783292502605,
+      "byte_size": 47,
+      "captured_at_ms": 1784050988534,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783292502605-7",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783292502605-7.bin",
-      "pinned": false,
-      "text_preview": "https://video.twimg.com/amplify_video/2073804906440347648/vid/avc1/970x720/cNbqekaZ5aRMUKsE.mp4"
-    },
-    {
-      "byte_size": 55,
-      "captured_at_ms": 1783292484852,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783292484852-6",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783292484852-6.bin",
-      "pinned": false,
-      "text_preview": "https://x.com/NatureUnedited/status/2073807945926656408"
-    },
-    {
-      "byte_size": 379995,
-      "captured_at_ms": 1783290481138,
-      "data_mime_type": "image/png",
-      "id": "1783290481138-5",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlinfo",
-        "text/_moz_htmlcontext",
-        "image/png",
-        "image/bmp",
-        "image/x-bmp",
-        "image/x-MS-bmp",
-        "image/x-icon",
-        "image/x-ico",
-        "image/x-win-bitmap",
-        "image/vnd.microsoft.icon",
-        "application/ico",
-        "image/ico",
-        "image/icon",
-        "text/ico",
-        "image/tiff",
-        "image/jpeg",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290481138-5.bin",
-      "pinned": false,
-      "text_preview": ""
-    },
-    {
-      "byte_size": 109700,
-      "captured_at_ms": 1783290443280,
-      "data_mime_type": "image/png",
-      "id": "1783290443280-4",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlinfo",
-        "text/_moz_htmlcontext",
-        "image/png",
-        "image/bmp",
-        "image/x-bmp",
-        "image/x-MS-bmp",
-        "image/x-icon",
-        "image/x-ico",
-        "image/x-win-bitmap",
-        "image/vnd.microsoft.icon",
-        "application/ico",
-        "image/ico",
-        "image/icon",
-        "text/ico",
-        "image/tiff",
-        "image/jpeg",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290443280-4.bin",
-      "pinned": false,
-      "text_preview": ""
-    },
-    {
-      "byte_size": 330634,
-      "captured_at_ms": 1783290427050,
-      "data_mime_type": "image/png",
-      "id": "1783290427050-3",
-      "mime_types": [
-        "image/png"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783290427050-3.bin",
-      "pinned": false,
-      "text_preview": ""
-    },
-    {
-      "byte_size": 93336,
-      "captured_at_ms": 1783289888447,
-      "data_mime_type": "image/png",
-      "id": "1783289888447-2",
-      "mime_types": [
-        "image/png"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783289888447-2.bin",
-      "pinned": false,
-      "text_preview": ""
-    },
-    {
-      "byte_size": 148,
-      "captured_at_ms": 1783289625649,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783289625649-1",
+      "id": "1784050988534-5",
       "mime_types": [
         "text/html",
         "text/_moz_htmlcontext",
@@ -166,207 +44,15 @@
         "text/x-moz-url-priv",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783289625649-1.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784050988534-5.bin",
       "pinned": false,
-      "text_preview": "  settings = {     yazi = lib.importTOML ./settings.toml;     keymap = lib.importTOML ./keymap.toml;     #theme = lib.importTOML ./theme.toml;      "
-    },
-    {
-      "byte_size": 50,
-      "captured_at_ms": 1783047176185,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783047176185-12",
-      "mime_types": [
-        "x-special/gnome-copied-files",
-        "text/plain;charset=utf-8",
-        "text/uri-list",
-        "application/vnd.portal.filetransfer",
-        "application/vnd.portal.files"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783047176185-12.bin",
-      "pinned": false,
-      "text_preview": "/home/tonii/Videos/twitter_2072592214333751574.gif"
-    },
-    {
-      "byte_size": 42,
-      "captured_at_ms": 1783047142973,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783047142973-11",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783047142973-11.bin",
-      "pinned": false,
-      "text_preview": "https://x.com/i/status/2072592214333751574"
-    },
-    {
-      "byte_size": 25,
-      "captured_at_ms": 1783046841861,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783046841861-10",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046841861-10.bin",
-      "pinned": false,
-      "text_preview": "services.mpd.openFirewall"
-    },
-    {
-      "byte_size": 135,
-      "captured_at_ms": 1783046741326,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783046741326-9",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046741326-9.bin",
-      "pinned": false,
-      "text_preview": "users.groups.user_group_name.members = [ \"mpd\" ];    systemd.tmpfiles.rules = [     \"d /home/tonii 0710 tonii user_group_name - -\"   ];"
-    },
-    {
-      "byte_size": 230,
-      "captured_at_ms": 1783046695168,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783046695168-8",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783046695168-8.bin",
-      "pinned": false,
-      "text_preview": "    dd the mpd user to the user's group and grant group execute permission to the user directory. This way the mpd user has permission to open the user directory:  # gpasswd -a mpd user_group_name $ c"
-    },
-    {
-      "byte_size": 1670,
-      "captured_at_ms": 1783045898380,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045898379-6",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045898379-6.bin",
-      "pinned": false,
-      "text_preview": "{ config, ... }:  let   home = config.home.homeDirectory; in {   services = {     mpd = {       enable = true;       dataDir = \"${home}/.cache/mpd\";       musicDirectory = \"${home}/Music\";       playl"
-    },
-    {
-      "byte_size": 20,
-      "captured_at_ms": 1783045468446,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045468446-5",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045468446-5.bin",
-      "pinned": false,
-      "text_preview": "nix run nixpkgs#rmpc"
-    },
-    {
-      "byte_size": 50,
-      "captured_at_ms": 1783045416171,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045416171-4",
-      "mime_types": [
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045416171-4.bin",
-      "pinned": false,
-      "text_preview": "bash <(curl -sL https://rmpc.mierak.dev//run-rmpc)"
-    },
-    {
-      "byte_size": 12,
-      "captured_at_ms": 1783045188393,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045188393-3",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045188393-3.bin",
-      "pinned": false,
-      "text_preview": "mpc listall "
+      "text_preview": "yuri/.local/state/noctalia/clipboard/index.json"
     },
     {
       "byte_size": 10,
-      "captured_at_ms": 1783045181869,
+      "captured_at_ms": 1784049576540,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045181869-2",
+      "id": "1784049576540-4",
       "mime_types": [
         "text/html",
         "text/_moz_htmlcontext",
@@ -382,15 +68,15 @@
         "text/x-moz-url-priv",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045181869-2.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784049576540-4.bin",
       "pinned": false,
-      "text_preview": "mpc update"
+      "text_preview": "elpers.rc "
     },
     {
-      "byte_size": 7,
-      "captured_at_ms": 1783045090045,
+      "byte_size": 27,
+      "captured_at_ms": 1784049263332,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783045090045-1",
+      "id": "1784049263332-3",
       "mime_types": [
         "text/html",
         "text/_moz_htmlcontext",
@@ -406,75 +92,73 @@
         "text/x-moz-url-priv",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783045090045-1.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784049263332-3.bin",
       "pinned": false,
-      "text_preview": "ncmpcpp"
+      "text_preview": "~/.local/share/applications"
     },
     {
-      "byte_size": 8,
-      "captured_at_ms": 1783013228301,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783013228301-32",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783013228301-32.bin",
-      "pinned": false,
-      "text_preview": "#EB-3882"
-    },
-    {
-      "byte_size": 21,
-      "captured_at_ms": 1783013013219,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783013013219-31",
-      "mime_types": [
-        "text/html",
-        "text/_moz_htmlcontext",
-        "text/_moz_htmlinfo",
-        "text/plain;charset=utf-8",
-        "UTF8_STRING",
-        "COMPOUND_TEXT",
-        "TEXT",
-        "text/plain",
-        "STRING",
-        "text/plain;charset=utf-8",
-        "text/plain",
-        "text/x-moz-url-priv",
-        "SAVE_TARGETS"
-      ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783013013219-31.bin",
-      "pinned": false,
-      "text_preview": "protocol.tiiny.site/ "
-    },
-    {
-      "byte_size": 51138,
-      "captured_at_ms": 1783012934823,
+      "byte_size": 514310,
+      "captured_at_ms": 1784049119260,
       "data_mime_type": "image/png",
-      "id": "1783012934823-30",
+      "id": "1784049119260-2",
       "mime_types": [
-        "image/png"
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012934823-30.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784049119260-2.bin",
       "pinned": false,
       "text_preview": ""
     },
     {
-      "byte_size": 44,
-      "captured_at_ms": 1783012574740,
+      "byte_size": 781799,
+      "captured_at_ms": 1784047927607,
+      "data_mime_type": "image/png",
+      "id": "1784047927607-1",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784047927607-1.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 68,
+      "captured_at_ms": 1784047735761,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783012574740-29",
+      "id": "1784047735761-2",
       "mime_types": [
         "text/plain;charset=utf-8",
         "UTF8_STRING",
@@ -486,32 +170,44 @@
         "text/plain",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012574740-29.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784047735761-2.bin",
       "pinned": false,
-      "text_preview": "cat /run/mpd/mpd.conf | grep music_directory"
+      "text_preview": "https://www.cyansunrecords.com/product/six-impala-six-impala-forever"
     },
     {
-      "byte_size": 40,
-      "captured_at_ms": 1783012549358,
-      "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783012549358-28",
+      "byte_size": 622342,
+      "captured_at_ms": 1784047602336,
+      "data_mime_type": "image/png",
+      "id": "1784047602336-1",
       "mime_types": [
-        "application/glfw+clipboard-39203",
-        "TEXT",
-        "STRING",
-        "UTF8_STRING",
-        "text/plain;charset=utf-8",
-        "text/plain"
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012549358-28.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1784047602336-1.bin",
       "pinned": false,
-      "text_preview": "tonii@nixos:~/Music/ > rmpc listall \"/\" "
+      "text_preview": ""
     },
     {
-      "byte_size": 27,
-      "captured_at_ms": 1783012537797,
+      "byte_size": 24,
+      "captured_at_ms": 1783996967652,
       "data_mime_type": "text/plain;charset=utf-8",
-      "id": "1783012537797-27",
+      "id": "1783996967652-41",
       "mime_types": [
         "text/plain;charset=utf-8",
         "UTF8_STRING",
@@ -523,9 +219,354 @@
         "text/plain",
         "SAVE_TARGETS"
       ],
-      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783012537797-27.bin",
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783996967652-41.bin",
       "pinned": false,
-      "text_preview": "rmpc listall \"/\" | head -20"
+      "text_preview": "why did you reply to me "
+    },
+    {
+      "byte_size": 14,
+      "captured_at_ms": 1783994744550,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783994744550-40",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783994744550-40.bin",
+      "pinned": false,
+      "text_preview": "android-studio"
+    },
+    {
+      "byte_size": 28,
+      "captured_at_ms": 1783994484223,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783994484223-38",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlcontext",
+        "text/_moz_htmlinfo",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "text/x-moz-url-priv",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783994484223-38.bin",
+      "pinned": false,
+      "text_preview": "androidStudioPackages.stable"
+    },
+    {
+      "byte_size": 178698,
+      "captured_at_ms": 1783993923589,
+      "data_mime_type": "image/png",
+      "id": "1783993923589-37",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783993923589-37.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 860501,
+      "captured_at_ms": 1783992650588,
+      "data_mime_type": "image/png",
+      "id": "1783992650588-36",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992650588-36.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 71,
+      "captured_at_ms": 1783992631195,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783992631195-35",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992631195-35.bin",
+      "pinned": false,
+      "text_preview": "https://wallpapers-clan.com/desktop-wallpapers/he-is-him-golden-trophy/"
+    },
+    {
+      "byte_size": 928327,
+      "captured_at_ms": 1783992429914,
+      "data_mime_type": "image/png",
+      "id": "1783992429914-34",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992429914-34.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 1175560,
+      "captured_at_ms": 1783992296467,
+      "data_mime_type": "image/png",
+      "id": "1783992296467-33",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992296467-33.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 1090882,
+      "captured_at_ms": 1783992263075,
+      "data_mime_type": "image/png",
+      "id": "1783992263075-32",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992263075-32.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 345932,
+      "captured_at_ms": 1783992107408,
+      "data_mime_type": "image/png",
+      "id": "1783992107408-31",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783992107408-31.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 120,
+      "captured_at_ms": 1783991976962,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783991976962-30",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783991976962-30.bin",
+      "pinned": false,
+      "text_preview": "https://wallpapers-clan.com/wp-content/uploads/2025/07/cinnamoroll-traffic-cone-hat-sanrio-desktop-wallpaper-preview.jpg"
+    },
+    {
+      "byte_size": 295806,
+      "captured_at_ms": 1783991856431,
+      "data_mime_type": "image/png",
+      "id": "1783991856431-29",
+      "mime_types": [
+        "text/html",
+        "text/_moz_htmlinfo",
+        "text/_moz_htmlcontext",
+        "image/png",
+        "image/bmp",
+        "image/x-bmp",
+        "image/x-MS-bmp",
+        "image/x-icon",
+        "image/x-ico",
+        "image/x-win-bitmap",
+        "image/vnd.microsoft.icon",
+        "application/ico",
+        "image/ico",
+        "image/icon",
+        "text/ico",
+        "image/tiff",
+        "image/jpeg",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783991856431-29.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 32,
+      "captured_at_ms": 1783991827985,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783991827985-28",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "COMPOUND_TEXT",
+        "TEXT",
+        "text/plain",
+        "STRING",
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "SAVE_TARGETS"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783991827985-28.bin",
+      "pinned": false,
+      "text_preview": "i actually find myself surprised"
+    },
+    {
+      "byte_size": 29,
+      "captured_at_ms": 1783991559320,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783991559320-27",
+      "mime_types": [
+        "text/plain;charset=utf-8",
+        "text/plain",
+        "TEXT",
+        "STRING",
+        "UTF8_STRING"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783991559320-27.bin",
+      "pinned": false,
+      "text_preview": "export NIXPKGS_ALLOW_UNFREE=1"
+    },
+    {
+      "byte_size": 131,
+      "captured_at_ms": 1783990806713,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783990806713-26",
+      "mime_types": [
+        "text/plain",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "chromium/x-internal-source-rfh-token",
+        "text/plain;charset=utf-8",
+        "TEXT",
+        "chromium/x-source-url",
+        "STRING",
+        "text/html"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783990806713-26.bin",
+      "pinned": false,
+      "text_preview": "1. Declaration of Rights 1.1 The Company enjoys and retains complete and indivisible ownership and/or intellectual property rights "
+    },
+    {
+      "byte_size": 119914,
+      "captured_at_ms": 1783990738408,
+      "data_mime_type": "image/png",
+      "id": "1783990738408-25",
+      "mime_types": [
+        "image/png"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783990738408-25.bin",
+      "pinned": false,
+      "text_preview": ""
+    },
+    {
+      "byte_size": 87,
+      "captured_at_ms": 1783990670040,
+      "data_mime_type": "text/plain;charset=utf-8",
+      "id": "1783990670040-23",
+      "mime_types": [
+        "text/plain",
+        "text/plain;charset=utf-8",
+        "UTF8_STRING",
+        "chromium/x-internal-source-rfh-token",
+        "text/plain;charset=utf-8",
+        "TEXT",
+        "chromium/x-source-url",
+        "STRING",
+        "text/html"
+      ],
+      "payload_path": "/home/tonii/.local/state/noctalia/clipboard/entries/1783990670040-23.bin",
+      "pinned": false,
+      "text_preview": "2.Information security The software does not upload your data to the server in any way."
     }
   ]
 }

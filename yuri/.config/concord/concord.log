@@ -1,0 +1,28 @@
+2026-07-06 02:33:53 UTC [ERROR] gateway: websocket closed: code=4003 reason="Not authenticated."
+2026-07-06 02:33:53 UTC [ERROR] tui: websocket closed: code=4003 reason="Not authenticated."
+2026-07-06 02:33:54 UTC [ERROR] gateway: websocket closed: code=4004 reason="Authentication failed."
+2026-07-06 02:33:54 UTC [ERROR] tui: websocket closed: code=4004 reason="Authentication failed."
+2026-07-06 02:33:58 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:33:58 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:33:58 UTC [ERROR] app: ack channel failed: Discord request failed: ack channel failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/691052431974465548/messages/1523481269332213851/ack); detail=Discord request failed: ack channel failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/691052431974465548/messages/1523481269332213851/ack)
+2026-07-06 02:33:58 UTC [ERROR] history: op=load_message_history channel_id=691052431974465548 before=0 limit=50 endpoint="GET /channels/691052431974465548/messages?limit=50" load message history failed: Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/691052431974465548/messages?limit=50): {"message": "401: Unauthorized", "code": 0}; detail=Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/691052431974465548/messages?limit=50): {"message": "401: Unauthorized", "code": 0}
+2026-07-06 02:34:01 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:34:01 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:02 UTC [ERROR] app: gateway command channel closed2026-07-06 02:34:02 UTC [ERROR] app: gateway command channel closed
+
+2026-07-06 02:34:02 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:02 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:03 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:34:03 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:03 UTC [ERROR] history: op=load_message_history channel_id=1104177488466296944 before=0 limit=50 endpoint="GET /channels/1104177488466296944/messages?limit=50" load message history failed: Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1104177488466296944/messages?limit=50): {"message": "401: Unauthorized", "code": 0}; detail=Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1104177488466296944/messages?limit=50): {"message": "401: Unauthorized", "code": 0}
+2026-07-06 02:34:03 UTC [ERROR] app: ack channel failed: Discord request failed: ack channel failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1104177488466296944/messages/1522411494183145594/ack); detail=Discord request failed: ack channel failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1104177488466296944/messages/1522411494183145594/ack)
+2026-07-06 02:34:05 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:34:05 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:05 UTC [ERROR] history: op=load_message_history channel_id=1092841331606425784 before=0 limit=50 endpoint="GET /channels/1092841331606425784/messages?limit=50" load message history failed: Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1092841331606425784/messages?limit=50): {"message": "401: Unauthorized", "code": 0}; detail=Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1092841331606425784/messages?limit=50): {"message": "401: Unauthorized", "code": 0}
+2026-07-06 02:34:12 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:34:12 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:12 UTC [ERROR] history: op=load_message_history channel_id=1139970890931646618 before=0 limit=50 endpoint="GET /channels/1139970890931646618/messages?limit=50" load message history failed: Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1139970890931646618/messages?limit=50): {"message": "401: Unauthorized", "code": 0}; detail=Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/1139970890931646618/messages?limit=50): {"message": "401: Unauthorized", "code": 0}
+2026-07-06 02:34:24 UTC [ERROR] app: gateway command channel closed
+2026-07-06 02:34:24 UTC [ERROR] tui: gateway command channel closed
+2026-07-06 02:34:24 UTC [ERROR] history: op=load_message_history channel_id=845292012269994024 before=0 limit=50 endpoint="GET /channels/845292012269994024/messages?limit=50" load message history failed: Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/845292012269994024/messages?limit=50): {"message": "401: Unauthorized", "code": 0}; detail=Discord request failed: message history failed: HTTP status client error (401 Unauthorized) for url (https://discord.com/api/v9/channels/845292012269994024/messages?limit=50): {"message": "401: Unauthorized", "code": 0}
+2026-07-06 02:34:32 UTC [ERROR] app: gateway shutdown request failed: gateway command channel closed
