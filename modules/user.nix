@@ -35,7 +35,8 @@
         # nicotine-plus
         anki
         rust-analyzer
-        # imhex
+        imhex
+        pcsx2   
         # osu-lazer-bin
         # renoise
         steam

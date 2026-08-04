@@ -3,17 +3,16 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "nixpkgs/nixos-unstable";
+    chaotic.url = "github:chaotic-cx/nyx/nyxpkgs-unstable";
 
     noctalia = {
       url = "github:noctalia-dev/noctalia";
       inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
-
     musnix = {
       url = "github:musnix/musnix";
     };
 
-    st.url = "github:siduck/st";
   };
 
   outputs =
@@ -22,7 +21,7 @@
       nixpkgs,
       nixpkgs-unstable,
       musnix,
-      st,
+      chaotic,
       ...
     }@inputs:
     let
@@ -38,13 +37,13 @@
             inputs
             nixpkgs
             musnix
-            st
             ;
           pkgsUnstable = import nixpkgs-unstable { inherit system; };
         };
 
         modules = [
           musnix.nixosModules.musnix
+          chaotic.nixosModules.default
           ./configuration.nix
 
           ({ ... }: {

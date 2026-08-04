@@ -18,6 +18,13 @@
     }
 
     window-rule {
+        match is-focused=true
+        background-effect {
+            blur true
+        }
+    }
+
+    window-rule {
     	match app-id="kitty"
     	default-column-width { proportion 0.5; }
     }

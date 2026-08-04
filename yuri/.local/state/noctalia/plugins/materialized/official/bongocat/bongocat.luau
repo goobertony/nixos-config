@@ -20,7 +20,10 @@
 --   bc=idle, dc=left slap, ba=right slap, da=both slap
 --   ef=sleep, gh=blink
 
-barWidget.setFont("fonts/bongocat.otf")
+local bongocatFont = noctalia.loadFont("fonts/bongocat.otf")
+if bongocatFont then
+  barWidget.setFont(bongocatFont, "pictographic")
+end
 barWidget.setText("bc")
 noctalia.setUpdateInterval(50)
 
@@ -39,10 +42,10 @@ local paused = false
 local waiting = false
 local blinking = false
 
-local AUDIO_SPECTRUM_ENABLED = barWidget.getConfig("audio_spectrum") == true
-local RAVE_MODE = barWidget.getConfig("rave_mode") == true
-local TAPPY_MODE = barWidget.getConfig("tappy_mode") == true
-local USE_MPRIS_FILTER = barWidget.getConfig("use_mpris_filter") == true
+local AUDIO_SPECTRUM_ENABLED = noctalia.getConfig("audio_spectrum") == true
+local RAVE_MODE = noctalia.getConfig("rave_mode") == true
+local TAPPY_MODE = noctalia.getConfig("tappy_mode") == true
+local USE_MPRIS_FILTER = noctalia.getConfig("use_mpris_filter") == true
 
 local idleTicks = 0
 local waitingTicks = 0
@@ -201,7 +204,7 @@ local function validateInputPattern(pattern)
 end
 
 local function startInputReader()
-  local devices = barWidget.getConfig("input_devices")
+  local devices = noctalia.getConfig("input_devices")
   if devices == nil then
     return
   end
@@ -212,15 +215,10 @@ local function startInputReader()
 
   local patterns = {}
   local seen = {}
-  local warnedEventPath = false
   for _, pattern in ipairs(devices) do
     if not validateInputPattern(pattern) then
       noctalia.notifyError("Bongo Cat", `Invalid input_devices entry: {tostring(pattern)}`)
       return
-    end
-    if pattern:match("^/dev/input/event") ~= nil and not warnedEventPath then
-      warnedEventPath = true
-      noctalia.notify("Bongo Cat", "Prefer /dev/input/by-id or /dev/input/by-path; /dev/input/eventN can change.")
     end
     if seen[pattern] == nil then
       seen[pattern] = true
@@ -230,13 +228,25 @@ local function startInputReader()
   if #patterns == 0 then
     return
   end
-  if not noctalia.commandExists("evtest") then
-    noctalia.notifyError("Bongo Cat", "evtest is not installed — cannot read input devices")
+
+  local executable = noctalia.getConfig("executable_path")
+
+  if executable == nil or executable == "" then
+    executable = "evtest"
+  end
+
+  if not noctalia.commandExists(executable) then
+    noctalia.notifyError("Bongo Cat", "the evtest path is invalid (" .. executable .. ") — cannot read input devices")
     return
   end
 
+  -- single-quote for the shell so paths with spaces or metacharacters are safe
+  local quotedExecutable = "'" .. executable:gsub("'", "'\''") .. "'"
+
   local command = "for device in " .. table.concat(patterns, " ")
-      .. '; do [ -e "$device" ] || continue; evtest "$device" 2>/dev/null & done; wait'
+    .. '; do [ -e "$device" ] || continue; ' .. quotedExecutable
+    .. ' "$device" 2>/dev/null & done; wait'
+
   if not noctalia.runStream(command, onEvtestLine) then
     noctalia.notifyError("Bongo Cat", "Unable to start input device reader")
   end

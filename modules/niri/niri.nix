@@ -15,6 +15,8 @@
       };
     };
   };
+  services.gvfs.enable = true;
+  services.tumbler.enable = true;
   programs.niri = {
     enable = true;
     package = pkgsUnstable.niri;
@@ -54,6 +56,9 @@
     glib
     kitty
     # meowfetch
+    evtest
+    gnome.gvfs
+    peazip
     mpd
     mpv
     niri

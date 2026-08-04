@@ -22,8 +22,10 @@
     }
 
     blur {
-        passes 1
-        offset 0.01
+        passes 4
+        offset 0.4
+        noise 0.075
+        saturation 1.9
     }
 
     debug {

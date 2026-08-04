@@ -6,26 +6,8 @@
     ./packages.nix
   ];
 
-  #  nixpkgs.overlays = [ inputs.polymc.overlay ];
-
-  #gpu shit conf for rx 570
-  hardware.amdgpu.opencl.enable = true;
   environment.variables = {
     _JAVA_AWT_WM_NONREPARENTING = 1; # for ghidra
-    RUSTICL_ENABLE = "radeonsi";
-    ROC_ENABLE_PRE_VEGA = "1";
-  };
-  hardware.graphics = {
-    enable = true;
-    extraPackages = with pkgs; [
-      mesa
-      libva
-      libvdpau-va-gl
-      vulkan-loader
-      vulkan-validation-layers
-      rocmPackages.clr.icd
-      mesa.opencl # Enables Rusticl (OpenCL) support
-    ];
   };
   nix.gc = {
     automatic = true;
@@ -46,5 +28,4 @@
   ]; # Enabling flakes
 
   system.stateVersion = "25.05"; # Don't change it vro
-
 }

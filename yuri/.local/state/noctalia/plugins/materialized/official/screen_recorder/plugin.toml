@@ -12,8 +12,8 @@
 
 id = "noctalia/screen_recorder"
 name = "Screen Recorder"
-version = "1.1.9"
-min_noctalia = "5.0.0"
+version = "1.2.1"
+plugin_api = 3
 author = "noctalia"
 license = "MIT"
 dependencies = ["gpu-screen-recorder"]
@@ -30,7 +30,6 @@ description_key = "settings.video_source.description"
 options = [
   { value = "focused", label_key = "settings.video_source.options.focused" },
   { value = "portal", label_key = "settings.video_source.options.portal" },
-  { value = "region", label_key = "settings.video_source.options.region" },
 ]
 
 [[setting]]
@@ -69,16 +68,13 @@ options = [
 ]
 
 [[setting]]
-key = "quality"
-type = "select"
-label_key = "settings.quality.label"
-default = "very_high"
-options = [
-  { value = "medium", label_key = "settings.quality.options.medium" },
-  { value = "high", label_key = "settings.quality.options.high" },
-  { value = "very_high", label_key = "settings.quality.options.very_high" },
-  { value = "ultra", label_key = "settings.quality.options.ultra" },
-]
+key = "video_qp"
+type = "int"
+label_key = "settings.video_qp.label"
+description_key = "settings.video_qp.description"
+default = 25
+min = 0
+max = 51
 
 [[setting]]
 key = "resolution"
@@ -109,6 +105,16 @@ options = [
   { value = "aac", label_key = "settings.audio_codec.options.aac" },
   { value = "flac", label_key = "settings.audio_codec.options.flac" },
 ]
+
+[[setting]]
+key = "audio_bitrate"
+type = "int"
+label_key = "settings.audio_bitrate.label"
+description_key = "settings.audio_bitrate.description"
+default = 0
+min = 0
+max = 512
+visible_when = { key = "audio_source", values = ["default_output", "default_input", "both"] }
 
 [[setting]]
 key = "show_cursor"

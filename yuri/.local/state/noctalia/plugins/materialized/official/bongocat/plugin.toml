@@ -7,8 +7,8 @@
 
 id = "noctalia/bongocat"
 name = "Bongo Cat"
-version = "1.1.1"
-min_noctalia = "5.0.0"
+version = "1.1.4"
+plugin_api = 3
 author = "noctalia"
 license = "MIT"
 dependencies = []
@@ -26,6 +26,12 @@ entry = "bongocat.luau"
   label_key = "settings.input_devices.label"
   description_key = "settings.input_devices.description"
   default = []
+
+  [[widget.setting]]
+  key = "executable_path"
+  type = "file"
+  label_key = "settings.executable_path.label"
+  default = "evtest"
 
   [[widget.setting]]
   key = "audio_spectrum"

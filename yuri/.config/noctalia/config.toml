@@ -130,12 +130,12 @@ width = 160.0
 display_mode = "graphic"
 
 [widget.cat]
-input_device = "/dev/input/event11"
+input_device = "/dev/input/event6"
 scale = 1.75
 type = "noctalia/bongocat:cat"
 
 [widget.cat_2]
-input_device = "/dev/input/event11"
+input_device = "/dev/input/event6"
 scale = 1.75
 type = "noctalia/bongocat:cat"
 
